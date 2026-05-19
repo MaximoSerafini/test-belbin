@@ -12,14 +12,19 @@ export interface SectionMeta {
 
 export const TOTAL_POINTS = 10
 
+// Clave de puntuacion oficial del Belbin Self-Perception Inventory.
+// Cada frase (a-i, por indice) suma al rol indicado. Roles internos:
+// cerebro=Plant, investigador=Resource Investigator, coordinador=Co-ordinator,
+// impulsor=Shaper, evaluador=Monitor Evaluator, cohesionador=Teamworker,
+// implementador=Implementer, finalizador=Completer Finisher, especialista=Specialist.
 export const SECTIONS: SectionMeta[] = [
-  { id: 's1', roles: ['cerebro', 'investigador', 'coordinador', 'impulsor', 'evaluador', 'cohesionador', 'implementador', 'finalizador', 'especialista'] },
-  { id: 's2', roles: ['impulsor', 'finalizador', 'cerebro', 'investigador', 'especialista', 'coordinador', 'evaluador', 'cohesionador', 'implementador'] },
-  { id: 's3', roles: ['implementador', 'cerebro', 'finalizador', 'coordinador', 'investigador', 'evaluador', 'impulsor', 'especialista', 'cohesionador'] },
-  { id: 's4', roles: ['cohesionador', 'impulsor', 'cerebro', 'evaluador', 'investigador', 'implementador', 'coordinador', 'finalizador', 'especialista'] },
-  { id: 's5', roles: ['evaluador', 'cerebro', 'implementador', 'investigador', 'finalizador', 'coordinador', 'impulsor', 'cohesionador', 'especialista'] },
-  { id: 's6', roles: ['impulsor', 'evaluador', 'cerebro', 'investigador', 'implementador', 'coordinador', 'finalizador', 'cohesionador', 'especialista'] },
-  { id: 's7', roles: ['cohesionador', 'impulsor', 'cerebro', 'evaluador', 'coordinador', 'investigador', 'implementador', 'finalizador', 'especialista'] },
+  { id: 's1', roles: ['investigador', 'cohesionador', 'cerebro', 'coordinador', 'finalizador', 'impulsor', 'implementador', 'evaluador', 'especialista'] },
+  { id: 's2', roles: ['implementador', 'coordinador', 'investigador', 'evaluador', 'impulsor', 'cohesionador', 'cerebro', 'finalizador', 'especialista'] },
+  { id: 's3', roles: ['coordinador', 'finalizador', 'impulsor', 'cerebro', 'cohesionador', 'investigador', 'evaluador', 'implementador', 'especialista'] },
+  { id: 's4', roles: ['cohesionador', 'impulsor', 'evaluador', 'implementador', 'cerebro', 'finalizador', 'investigador', 'coordinador', 'especialista'] },
+  { id: 's5', roles: ['evaluador', 'implementador', 'cohesionador', 'impulsor', 'investigador', 'coordinador', 'finalizador', 'cerebro', 'especialista'] },
+  { id: 's6', roles: ['cerebro', 'cohesionador', 'coordinador', 'finalizador', 'evaluador', 'implementador', 'impulsor', 'investigador', 'especialista'] },
+  { id: 's7', roles: ['impulsor', 'evaluador', 'finalizador', 'investigador', 'implementador', 'cerebro', 'coordinador', 'cohesionador', 'especialista'] },
 ]
 
 // Puntaje maximo por rol = 1 frase por seccion x 7 secciones x 10 pts = 70

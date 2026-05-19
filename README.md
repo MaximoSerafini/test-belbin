@@ -38,10 +38,16 @@ src/
 
 ## Nota legal
 
-Las 63 frases del cuestionario son de **redaccion propia y original**.
-NO reproducen el inventario oficial de Belbin Associates (material con copyright).
-El modelo de 9 roles es un marco conceptual de uso general; los textos son propios.
-Para uso comercial certificado, usar la herramienta oficial de Belbin.
+Las 63 frases del cuestionario reproducen el **Belbin Self-Perception Inventory**,
+material con **copyright de Belbin Associates / The Team Role Company**.
+Su uso aqui es para fines internos / educativos. Para uso comercial o
+certificacion oficial corresponde licenciar la herramienta oficial de Belbin
+(belbin.com). Distribuir publicamente esta version puede infringir ese copyright.
+
+La clave de puntuacion sigue el inventario Belbin estandar. NOTA: la planilla
+Excel de origen tenia las columnas Completer Finisher y Resource Investigator
+intercambiadas en su pestana de calculo; esta app usa la clave correcta, por lo
+que los resultados pueden diferir de esa planilla en esos dos roles.
 
 ## Personalizar
 
